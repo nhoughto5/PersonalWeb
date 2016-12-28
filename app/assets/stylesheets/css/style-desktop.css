@@ -59,7 +59,9 @@
 
 	#logo
 	{
-		margin-bottom: 3em;
+		padding: 20px;
+		border-radius: 40px;
+		background: rgba(19,19,19, 0.85);
 	}
 
 		#logo h1
@@ -69,7 +71,6 @@
 
 		#logo h1 a
 		{
-			display: block;
 			letter-spacing: 1px;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -82,7 +83,6 @@
 
 		#logo span
 		{
-			display: block;
 			padding-top: 1em;
 			letter-spacing: 1px;
 			text-transform: uppercase;

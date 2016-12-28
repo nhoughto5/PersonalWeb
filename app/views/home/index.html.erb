@@ -32,8 +32,7 @@
       <div id="header">
          <div class="container">
             <!-- Logo -->
-            <div id="logo" class="nameBlock">
-							<br /><br />
+            <div id="logo">
                <h1 ><a id="name" href="#">Nick Houghton</a></h1>
                <span>There is not enough time to learn it all</span>
             </div>
@@ -130,6 +129,11 @@
 							<section>
 								<h2><u>Masters of Applied Science</u> <br />Univeristy of Victoria</h2>
 								<a href="http://www.uvic.ca/" class="image"><%= image_tag("img/UvicLogo.png") %></a>
+								<p>
+									I completed my Masters of Applied Science in December of 2016.
+									My research focused on hardware security and I developed an application which automatically
+									detects trojans in Field Programmable Gate Arrays'.
+								</p>
 							</section>
 						</div>
 					</div>
@@ -150,16 +154,21 @@
 						<div class="3u">
 							<section>
 								<p><u>Globular Physics - OpenGL</u></p>
-								<a href="#" class="image full"><%= image_tag("img/globular.png") %></a>
+								<%= image_tag("img/globular.png", class:"projectImg") %>
 								<p>A simulation which demonstrates the properties of viscous fluid.</p>
 								<br />
 								<a href="#" class="button">Read More</a>
+								<div id="myModal" class="modal">
+								  <span class="close">&times;</span>
+								  <img class="modal-content" id="img01">
+								  <div id="caption"></div>
+								</div>
 							</section>
 						</div>
 						<div class="3u">
 							<section>
 								<p><u>Zombie Hunt - OpenGL</u></p>
-								<a href="#" class="image full"><%= image_tag("img/zombie.png") %></a>
+								<%= image_tag("img/zombie.png", class:"projectImg") %>
 								<p>A simple first person shooter game which includes AI, animated weapon actions and a 3D map.</p>
 								<a href="#" class="button">Read More</a>
 							</section>
@@ -167,8 +176,7 @@
 						<div class="3u">
 							<section>
 								<p><u>Automated Trojan Detection - Java</u></p>
-								<a href="#" class="image full"><%= image_tag("img/backDoorResult.png") %></a>
-								<!-- <a href="#" class="image full"><%= image_tag("img/HW_trojan.JPG") %></a> -->
+								<%= image_tag("img/backDoorResult.png", class:"projectImg") %>
 								<p>A java application which automatically detects and analyzes hardware trojans in FPGAs.</p>
 								<a href="#" class="button">Read More</a>
 							</section>
@@ -176,17 +184,18 @@
 						<div class="3u">
 							<section>
 								<p><u>The Sleepy Toaster</u></p>
-								<a href="#" class="image full"><%= image_tag("img/toaster.png") %></a>
+								<%= image_tag("img/toaster.png", class:"projectImg") %>
 								<p>An animation I did in <a href="https://www.blender.org/">Blender</a> which demonstrates some of the 12 principles of animation</p>
 								<a href="#" class="button">Read More</a>
 							</section>
 						</div>
 					</div>
+
 					<div class="row">
 						<div class="3u">
 							<section>
 								<p><u>ONC DMAS - Java, HTML, JS</u></p>
-								<a href="#" class="image full"><%= image_tag("img/onclogo.png") %></a>
+								<%= image_tag("img/onclogo.png", class:"projectImg") %>
 								<p>While working at <a href="http://www.oceannetworks.ca/">Ocean Networks Canada</a></p>
 								<br />
 								<a href="#" class="button">Read More</a>
