@@ -261,7 +261,7 @@
 	#header
 	{
 		position: relative;
-		background: #ddd url(../img/header.jpg) no-repeat center;
+		background: #ddd url(../img/keyboardHeader.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -293,7 +293,7 @@
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#main
+	.main
 	{
 		position: relative;
 		background: #fff url(images/overlay.png) repeat;
@@ -309,14 +309,14 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
+	.footer
 	{
 		position: relative;
 		background: #121212;
 		color: rgba(255,255,255,.4);
 	}
 
-	#footer header h2
+	.footer header h2
 	{
 		color: #FFF;
 	}

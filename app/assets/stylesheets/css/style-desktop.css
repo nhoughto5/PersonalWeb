@@ -75,7 +75,9 @@
 			text-transform: uppercase;
 			font-size: 4em;
 			font-weight: 900;
-			color: #323338;
+			/*color: #323338;*/
+			font-weight: bold;
+			color: #f6f8ff
 		}
 
 		#logo span
@@ -85,7 +87,8 @@
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			font-size: 1.2em;
-			color: #8e8588;
+			/*color: #8e8588;*/
+			color: #e61f1f !important;
 		}
 
 
@@ -149,7 +152,7 @@
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#main
+	.main
 	{
 		padding: 6em 0em;
 	}
@@ -182,7 +185,7 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
+	.footer
 	{
 		padding: 6em 0em;
 	}
