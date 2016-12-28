@@ -35,13 +35,14 @@
             <div id="logo" class="nameBlock">
 							<br /><br />
                <h1 ><a id="name" href="#">Nick Houghton</a></h1>
-               <span>There isn't enough time to learn it all</span>
+               <span>There is not enough time to learn it all</span>
             </div>
             <!-- Nav -->
             <nav id="navv">
                <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="threecolumn.html">Projects</a></li>
+                  <li><a href="threecolumn.html">Education</a></li>
+									<li><a href="threecolumn.html">Projects</a></li>
                   <li class="active"><a href="twocolumn1.html">Resume</a></li>
                   <li><a href="twocolumn2.html">Music</a></li>
                   <li><a href="onecolumn.html">Contact</a></li>
@@ -80,11 +81,11 @@
                         <h2>What do I do?</h2>
                         <span class="byline">Computers, music, and dogs</span>
                      </header>
-                     <p><a href="#" class="image full"><%= image_tag("img/pics02.jpg") %></a></p>
+                     <p><a href="#" class="image full"><%= image_tag("img/nickFieldBW.png") %></a></p>
                      <p>
                         I am a graduate of Uvic's Masters of Applied Science program with a focus on hardware security.
-												I am passionate about programming and am extremely interested animation.
-												I love working with C++ and openGL but am keen to learn more technologies.
+												I am passionate about programming and am extremely interested in animation.
+												I love working with C++ and OpenGL but am keen to learn more technologies.
 												While completing my masters I took a position at Ocean Networks Canada where I've gained considerable experience in web design and large-scale data management.
 												I love music and have the most handsome vizsla in the world.
                      </p>
@@ -95,9 +96,51 @@
          </div>
       </div>
       <!-- Main -->
-			<!-- <hr /> -->
+
+			<!-- Education -->
+			<div id="education" class="footer">
+				<div class="container">
+					<header>
+						<h2>Education</h2>
+						<span class="byline">I got learnded</span>
+					</header>
+					<div class="row">
+						<div class="4u">
+							<section>
+								<h2><u>Secondary</u> <br />St. Michaels University School</h2>
+								<a href="https://www.smus.ca/" class="image"><%= image_tag("img/smus.png") %></a>
+								<p>
+									I graduate from SMUS in 2006.
+									During my time here I was extremely interested in music and math.
+									I was a student representative on the student arts council and was a member of both the cricket and rowing teams.
+								</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section>
+								<h2><u>Bachelor of Engineering</u> <br />Univeristy of Victoria</h2>
+								<a href="http://www.uvic.ca/" class="image"><%= image_tag("img/UvicLogo.png") %></a>
+								<p>
+									I completed my B.Eng in the spring of 2015 with a major in Computer Engineering.
+									I received the specialty designation in both embedded platforms and networking.
+								</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section>
+								<h2><u>Masters of Applied Science</u> <br />Univeristy of Victoria</h2>
+								<a href="http://www.uvic.ca/" class="image"><%= image_tag("img/UvicLogo.png") %></a>
+							</section>
+						</div>
+					</div>
+				</div
+			</div>
+		</div>
+			<!-- Education -->
+
+
 			<!-- Projects -->
-			<div id="projectsBlock" class="footer">
+			<div id="projectsBlock" class="main">
 				<div class="container">
 					<header>
 						<h2>Projects</h2>
@@ -135,6 +178,17 @@
 								<p><u>The Sleepy Toaster</u></p>
 								<a href="#" class="image full"><%= image_tag("img/toaster.png") %></a>
 								<p>An animation I did in <a href="https://www.blender.org/">Blender</a> which demonstrates some of the 12 principles of animation</p>
+								<a href="#" class="button">Read More</a>
+							</section>
+						</div>
+					</div>
+					<div class="row">
+						<div class="3u">
+							<section>
+								<p><u>ONC DMAS - Java, HTML, JS</u></p>
+								<a href="#" class="image full"><%= image_tag("img/onclogo.png") %></a>
+								<p>While working at <a href="http://www.oceannetworks.ca/">Ocean Networks Canada</a></p>
+								<br />
 								<a href="#" class="button">Read More</a>
 							</section>
 						</div>
