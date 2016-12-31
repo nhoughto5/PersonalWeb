@@ -8,3 +8,14 @@
 /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
 border-radius: 12px;
 }
+
+.modal-content {
+       background: #fff url(css/images/overlay.png) repeat;
+}
+
+.embedVideo{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid #121212;
+}
