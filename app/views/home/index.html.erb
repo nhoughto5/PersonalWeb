@@ -174,7 +174,7 @@
                                         <div class="modal-footer">
                                             <p style="text-align: left">
                                                 The globular physics simulator simulates the behaviour of viscous fluid spouting from a fountain.
-                                                By tweaking paramters in the source code the fountain can be made to emanate water, gel, even powder.
+                                                By tweaking parameters in the source code the fountain can be made to emanate water, gel, even powder.
                                                 The system uses an implicit mesher developed at the University of Toronto and can be found <a href="http://www.dgp.toronto.edu/~rms/software/ImplicitMesher/index.html">here</a>.
                                                 The code can be found on my github <a href="https://github.com/nhoughto5/csc578BGlob">here</a> and a full report can be downloaded <a href="https://1drv.ms/b/s!AmUwgYjJCglKiD7cCNCZIJKhkfYc">here</a>.
                                             </p>
@@ -217,6 +217,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Modal -->
                     </section>
                 </div>
                 <div class="3u">
@@ -231,10 +232,15 @@
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h2 class="modal-title">Globular Physics Simulation</h2>
+                                            <h2 class="modal-title">Automated Trojan Detection</h2>
                                         </div>
                                         <div class="modal-body">
-
+                                          <p>
+                                            I developed an application which is capable of automatically detecting hardware trojans in field programmable gate-arrays (FPGA).
+                                            This application is written in Java and employs the <a href="http://rapidsmith.sourceforge.net/"><i>RapidSmith</i></a> library.
+                                            You can read more about it in my thesis <a href="https://1drv.ms/b/s!AmUwgYjJCglKiEHasMG5xS80x-Em">here</a>.
+                                            You can find the code in my repo <a href="https://github.com/nhoughto5/javaTrojanDetector">here</a>.
+                                          </p>
                                         </div>
                                         <div class="modal-footer">
                                             <p style="text-align: left">
@@ -252,7 +258,30 @@
                         <p><u>The Sleepy Toaster</u></p>
                         <%= image_tag("img/toaster.png", class:"projectImg") %>
                             <p>An animation I did in <a href="https://www.blender.org/">Blender</a> which demonstrates some of the 12 principles of animation</p>
-                            <a href="#" class="button">Read More</a>
+                            <a href="#" class="button" data-toggle="modal" data-target="#toasterModal">Read More</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="toasterModal" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">The Sleepy Toaster</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RbN9lXQX5fc" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <p style="text-align: left">
+                                              To get a little more familiar with other animation tools I put together this quick animation of a toaster who wakes up late for class.
+                                              Animation theory has a list of <a href="https://en.wikipedia.org/wiki/12_basic_principles_of_animation"> 12 principles</a> which help to make a scene look more realistic.
+                                              I chose to use 'Squash and Stretch', 'Anticipation', 'Slow In and Slow Out', 'Exaggeration', and 'Timing' to help bring to life a simple toaster.
+                                            </p>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal -->
                     </section>
                 </div>
             </div>
@@ -260,11 +289,33 @@
             <div class="row">
                 <div class="3u">
                     <section>
-                        <p><u>ONC DMAS - Java, HTML, JS</u></p>
+                        <p><u>ONC DMAS - Java, HTML, JS, CSS and Matlab</u></p>
                         <%= image_tag("img/onclogo.png", class:"projectImg") %>
-                            <p>While working at <a href="http://www.oceannetworks.ca/">Ocean Networks Canada</a></p>
+                            <p>While working at <a href="http://www.oceannetworks.ca/">Ocean Networks Canada</a> I worked on the enormous data procurment system which takes in over 200 terbytes of data per day.</p>
                             <br />
-                            <a href="#" class="button">Read More</a>
+                            <a href="#" class="button" data-toggle="modal" data-target="#oncModal">Read More</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="oncModal" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Data Management and Acquisition Services</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                              While working with Ocean Networks Canada I worked with the development team to build and manage the data management and acquisition system <a href="http://dmas.uvic.ca/home?TREETYPE=1&LOCATION=11&TIMECONFIG=0">(DMAS)</a>.
+                                              ONC takes in over 200 terabytes of oceanic data per day.
+                                              DMAS receives, archives, processes and actively monitors this data while providing means for the ocean science community to mine, analyze and document it.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal -->
                     </section>
                 </div>
             </div>
