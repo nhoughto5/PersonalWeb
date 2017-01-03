@@ -10,7 +10,7 @@ border-radius: 12px;
 }
 
 .modal-content {
-       background: #fff url(css/images/overlay.png) repeat;
+       background: #f6f8ff url(css/images/overlay.png) repeat;
 }
 
 .embedVideo{
@@ -18,4 +18,15 @@ border-radius: 12px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 2px solid #121212;
+}
+
+.workExpHeader{
+  color: #f6f8ff;
+}
+
+.workExpImg{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  height:310px;
 }
