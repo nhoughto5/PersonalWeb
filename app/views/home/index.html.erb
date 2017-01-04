@@ -47,8 +47,8 @@
                   <li><a style="cursor:pointer" data-scroll-goto="0">Education</a></li>
                   <li><a style="cursor:pointer" data-scroll-goto="1">Projects</a></li>
                   <li><a style="cursor:pointer" data-scroll-goto="2">Resume</a></li>
-                  <li><a href="twocolumn2.html">Music</a></li>
-                  <li><a href="onecolumn.html">Contact</a></li>
+                  <li><%= link_to "Music", "/Hootin" %></li>
+                  <li><a style="cursor:pointer" data-scroll-goto="4">Contact</a></li>
                </ul>
             </nav>
          </div>
@@ -416,17 +416,18 @@
          </div>
       </div>
       <!-- Resume -->
-      <!-- Copyright -->
-      <footer class="footer-distributed">
+      <!-- Footer -->
+      <footer class="footer-distributed" data-scroll-index="4">
 
       			<div class="footer-left">
 
       				<h3>Nick Houghton</h3>
 
       				<p class="footer-links">
-      					<a style="cursor:pointer" data-scroll-goto="3">Home</a>
+      					<a style="cursor:pointer" data-scroll-goto="3">Top</a>
       					·
-      					<a href="#">Music</a>
+      					<a href="/">Music</a>
+                <%= link_to "Music", "/Hootin"%>
       					·
                 <%= link_to "Find The Donald", "/FindTheDonald"%>
 
@@ -462,9 +463,13 @@
       			<div class="footer-right">
 
       				<p class="footer-company-about">
-      					<span>Here is some other ways to keep in touch.</span>
-      					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+      					"I’ve been waiting for you, Obi-Wan. We meet again, at last. The circle is now complete. When I left you, I was but the learner; now I am the master."
+
       				</p>
+              <br />
+              <p class="footer-company-about">
+                <span>Here are some other ways to keep in touch.</span>
+              </p>
 
       				<div class="footer-icons">
       					<a href="https://www.facebook.com/nhoughto"><i class="fa fa-facebook"></i></a>
