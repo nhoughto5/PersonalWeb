@@ -4,7 +4,7 @@
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 skel.init({
-	prefix: 'assets/css/style',
+	prefix: 'assets/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
