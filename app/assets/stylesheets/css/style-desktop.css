@@ -1,0 +1,191 @@
+/*
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+	}
+
+	body,input,textarea,select
+	{
+		font-size: 11pt;
+	}
+
+
+	header
+	{
+		margin-bottom: 2em;
+	}
+
+		header h2
+		{
+			font-size: 3em;
+		}
+
+		header .byline
+		{
+			margin: 0.5em 0 0 0;
+			padding: 0.50em 0 0.5em 0;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+
+		.homepage #header
+		{
+			padding: 10em 0em;
+		}
+
+		#header .container
+		{
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding-top: 20px;
+		border-radius: 30px;
+		background: rgba(19,19,19, 0.85);
+	}
+
+		#logo h1
+		{
+			color: #f6f8ff;
+		}
+
+		#logo h1 a
+		{
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 4em;
+			font-weight: 900;
+			/*color: #323338;*/
+			font-weight: bold;
+			color: #f6f8ff
+		}
+
+		#logo span
+		{
+			padding-top: 1em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			/*color: #8e8588;*/
+			color: #e61f1f !important;
+		}
+
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#navv
+	{
+	}
+
+		#navv ul
+		{
+			display: inline-block;
+			padding: 0em 3em;
+			border-radius: 40px;
+			background: #131313;
+		}
+
+		#navv > ul > li
+		{
+			display: inline-block;
+		}
+
+			#navv > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#navv > ul > li > a,
+			#navv > ul > li > span
+			{
+				display: block;
+				padding: 1.3em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 1em;
+				outline: 0;
+				color: #7b7b7b;
+			}
+
+
+			#navv > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			/*#navv li.active a
+			{
+				color: #FFF;
+			}*/
+
+			#navv > ul > li > ul
+			{
+				display: none;
+			}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	.main
+	{
+		padding: 6em 0em;
+	}
+
+	.divider
+	{
+		margin: 7em 0em 5em 0em;
+	}
+
+	#content
+	{
+	}
+
+	#content header h2
+	{
+		letter-spacing: -1px;
+		font-size: 3em;
+	}
+
+	#sidebar
+	{
+	}
+
+	#sidebar header h2
+	{
+		font-size: 2em;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	.footer
+	{
+		padding: 6em 0em;
+	}
